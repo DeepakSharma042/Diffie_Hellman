@@ -19,8 +19,6 @@ function myFunction()
         // Generating the secret key after the exchange of keys 
         var k1 = calPowerWithModuls(B, x, p1); // Secret key for Alice 
         var k2 = calPowerWithModuls(A, y, p1); // Secret key for Bob 
-
-        alert("Secret key for Alice is "+ k1+ "\n" +"Secret key for Bob is " + k2);
-    
-        //document.getElementById("result").innerHTML = "Secret key for Alice is "+ k1 + "<br>" + " Secret key for Bob is  "+ k2;
+        
+        document.getElementById("result").innerHTML = "Secret key for Alice is "+ k1 + "<br>" + " Secret key for Bob is  "+ k2;
 }
