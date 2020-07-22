@@ -1,0 +1,68 @@
+body,html{
+	height: 100%;
+	margin: 0px;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(image/home13.jpg);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.container1{
+	position: absolute;
+	margin: 20px;
+	margin-left: 255px;
+	top: 6px;
+	color: #FF7F27; 
+	font-size: 50px;
+}
+
+.container2{
+	position: absolute;
+	margin: 15px;
+	margin-top: 25px;
+	margin-left:85%;
+	top: 6px;
+	color: #FF7F27; 
+	font-size: 30px;
+}
+
+.container3{
+	position: absolute;
+	color: white;
+	margin: 50px;
+	width: auto;
+	left: 450px;
+	top: 85px;
+}
+
+input {
+	border-radius: 4px;
+	height: 28px;
+}
+
+.button {
+    padding: 7px 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #00A8F3;
+    color: white;
+    border: 0px solid #00A8F3;
+	border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #FF7F27;
+    color: white;
+}
